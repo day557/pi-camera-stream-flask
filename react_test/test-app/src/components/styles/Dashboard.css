@@ -1,0 +1,96 @@
+:root {
+    --primary-color: #1F2328;
+    --border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dashboard-container {
+    height: 100vh; 
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.lol {
+    display: flex;
+    width: 100vw;
+    flex-grow : 1;
+    padding-bottom: 25px;
+}
+
+.card-container {
+    background-color: #1F2328;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    border-radius: 16px;
+    gap: 25px;
+    padding: 25px;
+    width: 100%;
+    margin-bottom: auto;
+}
+
+.card {
+    background-color: #1F2328;
+    border: var(--border);
+    border-radius: 16px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.card:hover {
+    background-color: #2d71f5;
+    transition: 100ms ease;
+}
+
+.card img {
+    font-size: 120px;
+    font-weight: 700;
+    border-radius: 16px;
+}
+
+.motion-menu {
+    background-color: #1F2328;
+    border-radius: 16px;
+    margin: 0px 25px 0px;
+    right: 0;
+}
+
+.motion-menu-head {
+    display: flex;
+    height: 50px;
+    margin: 5px;
+}
+
+.motion-menu-head h1{
+    margin: 0px;
+    color: #2d71f5;
+    padding-left: 10px;
+}
+
+.motion-menu-head img{
+    margin-left: auto;
+    padding-right: 10px;
+    filter: invert(1);
+    width: 40px;
+}
+
+
+.plus_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.plus_icon img {
+    height: 50%;
+    opacity: 40%;
+}
+
+.hidden {
+    display: none; 
+  }

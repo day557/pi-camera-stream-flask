@@ -1,0 +1,39 @@
+:root {
+    --primary-color: rgb(40, 40, 40);
+    --border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+
+.slide-pane__content {
+    padding: 0px;
+    background-color: rgb(20, 20, 20);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border-right: var(--border);
+}
+
+.settings_container{
+    margin: 20px 40px 0px;  
+}
+
+.settings_container label{
+    color: white; 
+}
+
+.del_apl_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.remove_button {
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 24px;
+    border:  var(--border);
+    background: var(--primary-color);
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    ;
+}
